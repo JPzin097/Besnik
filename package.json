@@ -1,0 +1,23 @@
+{
+  "name": "besnik",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/JPzin097/Besnik",
+  "author": "João Pedro <sensidotwo@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.9.3",
+    "parcel": "^2.9.3"
+  },
+  "scripts": {
+    "start": "parcel watch",
+    "build": "parcel build",
+    "dev": "parcel serve public/index.html"
+  },
+  "targets": {
+    "frontend": {
+      "source": "./assets/scripts/frontend/index.js"
+    }
+  },
+  "frontend": "dist/frontend.js"
+}
