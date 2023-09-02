@@ -1,0 +1,26 @@
+@use 'sass:math';
+
+.c-info-box {
+  background: #eee;
+  color: $color-text;
+  max-width: 188px;
+
+  &__icon {
+    display: inline-block;
+    margin-bottom: 1.875rem;
+  }
+
+  &__title {
+    font-size: 1.25rem;
+    margin-bottom: 1.25rem;
+    margin-top: 0;
+  }
+
+  &__content {
+    line-height: math.div(26, 16);
+
+    p {
+      margin: 0;
+    }
+  }
+}
