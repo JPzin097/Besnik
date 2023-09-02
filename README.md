@@ -14,3 +14,5 @@ Estudo de desenvolvimento Front-end
 - Node
 - Sass
 - Parcel
+
+> Nunca edite arquivos dentro da pasta `dist` pois eles serão substituídos ao editar um arquivo original (dentro de `assets`, ou `public`)
